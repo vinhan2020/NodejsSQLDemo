@@ -1,0 +1,13 @@
+### Get All Product
+GET http://localhost:3000/product
+Content-Type: application/json
+
+### Create Product
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "product_id":"Pro1",
+    "name":"name 1",
+    "price":1000,
+}
